@@ -52,7 +52,7 @@ class Exon(GenomicFeature):
 
     def add_exon(self, exon):
 
-
+    def total_exon_length(self):
 
     def describe(self) -> str:
         return f"{type(self).__name__} {self.chromosome}:{self.start}-{self.end}({self.strand}) exon#{self.exon_number}"
